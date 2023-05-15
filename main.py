@@ -5,7 +5,6 @@ filename = "221010220_ishita_whistle.stl"
 with open(filename, "rb") as f:
   content=f.read()
   hex_Data=binascii.hexlify(content)
-print(hex_Data)  
 with open("textfile.txt", 'wb') as f:
     f.write(hex_Data)
 #encoded image generator
