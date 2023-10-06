@@ -1,7 +1,7 @@
 import binascii
 import text_to_image
 #file to hex
-filename = "221010220_ishita_whistle.stl"
+filename = "provide the filename"
 with open(filename, "rb") as f:
   content=f.read()
   hex_Data=binascii.hexlify(content)
